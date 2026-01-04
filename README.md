@@ -1,5 +1,13 @@
-# password_generator.py
-A simple Python password generator for creating secure random passwords.
+# Password Generator (Python)
+
+A beginner-friendly Python project that generates strong random passwords using letters, numbers, and special characters.
+
+## Features
+- User-defined password length
+- Random and secure password generation
+
+## How to Run
+python password_generator.py
 import random
 import string
 
@@ -16,4 +24,5 @@ for i in range(length):
     password += random.choice(characters)
 
 print("Generated Password:", password)
+
 
